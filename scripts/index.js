@@ -53,7 +53,7 @@ function makeTable(activity) {
         const value = activity[key];
         const h = headings.insertCell(i);
         const v = values.insertCell(i);
-        h.innerHTML = key;
+        h.innerHTML = key.toUpperCase();
         v.innerHTML = value;
         i++;
     }
